@@ -1,0 +1,20 @@
+.detailsContainer {
+    display: flex;
+    justify-content: center;
+    /* empujo hacia abajo el texto en baja resolucion */
+    flex-wrap: wrap;
+    color: rgb(148, 135, 135);
+}
+.col {
+    max-width: 400px;
+   margin: 15px;
+   height: auto;
+   height: 80%;
+}
+.movieImage {
+    border-radius: 18px;
+}
+
+.movieDetails {
+    font-size: 1.5rem;
+}
