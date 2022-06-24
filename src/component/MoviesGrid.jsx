@@ -2,7 +2,7 @@ import Moviecard from './MovieCard';
 import React from 'react';
 import styles from "../style/MoviesGrid.module.css";
 import { useEffect , useState } from 'react';
-import { get } from '../utils/httpClient';
+import { get } from '../services/httpClient';
 import { useLocation } from "react-router";
 
 function useQuery() {

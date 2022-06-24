@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import { get } from "../utils/httpClient";
+import { get } from "../services/httpClient";
 import styles from "../style/MovieDetails.module.css";
 
 export function MovieDetails() {
