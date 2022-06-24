@@ -3,6 +3,10 @@ import { FaSearch } from "react-icons/fa";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+
+
+
+
 export function Search() {
 
     const [searchText, setsearchText] = useState("");
@@ -23,12 +27,20 @@ export function Search() {
                     type="text"
                     value={ searchText }
                     onChange={(e)=> setsearchText(e.target.value)}
+                    placeholder="Search for a movie.. "
                     /> 
 
                 <button className={style.searchButton} type="submit">
                     <FaSearch size={20} />
                 </button>
+               
             </div>
+           
+          
+           
+            
+           
         </form>
+        
     )
 }

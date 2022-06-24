@@ -39,6 +39,9 @@ export function MovieDetails() {
         <p>
           <strong>Description:</strong> {movie.overview}
         </p>
+        <p>
+          <strong>Puntuacion: </strong> {movie.vote_average}
+        </p>
       </div>
     </div>
   );

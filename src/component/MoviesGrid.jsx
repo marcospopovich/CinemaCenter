@@ -5,6 +5,12 @@ import { useEffect , useState } from 'react';
 import { get } from '../services/httpClient';
 import { useLocation } from "react-router";
 
+
+
+
+
+
+
 function useQuery() {
   return new URLSearchParams(useLocation().search);
 }
@@ -19,7 +25,7 @@ export function MoviesGrid() {
      
        
      
- 
+      
       // traigo datos de la Api y actualizo es useState
         useEffect(() => {
           const searchUrl = search 
